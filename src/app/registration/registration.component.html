@@ -1,0 +1,95 @@
+<div class="front col-12 p-3" *ngIf="sample else elseBlock">
+
+
+    <form [formGroup]="customer" (ngSubmit)="onSubmit()" class="rounded col-8 shadow offset-2 p-4 row g-2">
+        <div class="text-center">Already have an Account? <button role="link" type="button" class="om1" 
+           (click)="onchange()"><b>Login</b></button></div>
+            <hr>
+        <h1 class="text-center">Registration Form</h1>
+        
+        <div class="form-group d-flex">
+            <div class="group1 col">
+                <label for="fname" class="form-label">First Name</label>
+                <input type="text" class="form-control" formControlName="fname" required
+                    [ngClass]="isFrmSub && valid.fname.errors? 'is-invalid':''">
+                <div class="invalid-feedback" *ngIf="isFrmSub && valid.fname.touched">
+                    <i>Please Enter Your First Name</i>
+                </div>
+            </div>
+            <div class="group1 col ms-4">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" formControlName="lname" required [ngClass]="isFrmSub && valid.lname.errors? 'is-invalid':''">
+                <div class="invalid-feedback" *ngIf="isFrmSub && valid.lname.touched">
+                    <i>Please Enter Your Last Name</i>
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" formControlName="email" 
+            required [ngClass]="isFrmSub && valid.email.errors? 'is-invalid':''" pattern>
+            <div class="invalid-feedback" *ngIf="isFrmSub && valid.email.touched">
+                <div *ngIf="isFrmSub && valid.email.errors?.required"><i>Please Enter Your Email Id</i></div>
+                <div *ngIf="isFrmSub && valid.email.errors?.pattern"><i>Please Enter Valid Email Id</i></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="mob" class="form-label">Mobile Number</label>
+            <input type="tel" class="form-control" formControlName="mob"
+            required [ngClass]="isFrmSub && valid.mob.errors? 'is-invalid':''" pattern maxlength="10">
+            <div class="invalid-feedback" *ngIf="isFrmSub && valid.mob.touched">
+                <div *ngIf="isFrmSub && valid.mob.errors?.required"><i>Please Enter Your Mobile Number</i></div>
+                <div *ngIf="isFrmSub && valid.mob.errors?.pattern"><i>Mobile Number Should be 10 digits</i></div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pass" class="form-label">Password</label>
+            <input type="password" class="form-control" formControlName="pass" 
+            required [ngClass]="isFrmSub && valid.pass.errors? 'is-invalid':''" pattern>
+            <div class="invalid-feedback" *ngIf="isFrmSub && valid.pass.touched">
+                <div *ngIf="isFrmSub && valid.pass.errors?.required"><i>Please Enter Your Password</i></div>
+                <div *ngIf="isFrmSub && valid.pass.errors?.pattern"><i>Password must contain at least one uppercase letter, one lowercase letter, one number and one special character and having 8 minimum characters</i></div>
+            </div> 
+        </div>
+        <div class="form-group">
+            <label for="cpass" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" formControlName="cpass"
+            required [ngClass]="isFrmSub && valid.cpass.errors? 'is-invalid':''" pattern compose>
+            <div class="invalid-feedback" *ngIf="isFrmSub && valid.cpass.touched">
+                <div *ngIf="isFrmSub && valid.cpass.errors?.required"><i>Please Enter Your Password Again </i></div>
+                <div *ngIf="isFrmSub && valid.cpass.errors?.passwordMismatch"><i>Password Not Matched</i></div>  
+            </div>
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-success col-2">Register</button>
+        </div>
+
+        <div class="text-center">By continuing you agree to our <a routerLink="tc">Terms and Conditions</a></div>
+    
+        
+
+        <!-- <div class="modal" id="modal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header d-flex justify-content-center"> <button type="button" class="closebtn "
+                            data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                fill="red" class="bi bi-x" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                            </svg></button>
+                    </div>
+                    <div class="modal-body  col-12">
+                        <app-login></app-login>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </form>
+</div>
+
+<ng-template #elseBlock>
+    <app-login (sendParent)="flag($event)"></app-login>
+</ng-template>

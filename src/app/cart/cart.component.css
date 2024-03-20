@@ -1,0 +1,90 @@
+.mainhead{
+    width:1030px;
+    height:68px;
+    padding:16px;
+    margin-left:200px;
+    position:absolute;
+    z-index:1;
+    font-weight:bolder
+}
+.mainhead2{
+    width:1030px;
+    height:100vh;
+    padding:16px;
+    margin-left:200px;
+}
+.main{
+    height:100vh;
+}
+.btn{
+    height:46px;
+    width:300px;
+    line-height: 32px;
+    margin-top:30px;
+    background-color: darkseagreen;
+    color:white;
+    font-weight: 600;
+}
+
+.CardBanner{
+    width:670px;
+    height:133px;
+    border-bottom:2px solid Grey;
+    background-color: white;
+}
+/* .mainbanner{
+    width:670px;
+    height:105px;
+    
+} */
+.carousel-control-prev,.carousel-control-next{
+    scale:0.6;
+    padding:-30px;
+    color:#24AEB1
+}
+
+.cartname{ 
+    width:571px;
+
+}
+.inner1{
+    height:46px;
+}
+.drops1{
+    width:80px;
+    text-align:center;
+    color:red;
+    height:37px;
+    border:1px solid red;
+    border-radius: 5px;
+    font-size:14px;
+}
+.bordercart{
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+
+}
+.addMore{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.closebtn{
+    background-color: white;
+    color:red;
+    border:none
+
+}
+.circlebtn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    padding:0px;
+}
+.chips{
+    color:#24AEB1;
+    scale:0.7;
+}

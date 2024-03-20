@@ -1,0 +1,119 @@
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="nxt offset-3 ">
+            <p style="color:teal; font-weight:700; font-size:24px;">Welcome To Fashion</p>
+        <h1 style="font-weight:900"> Men Fashion</h1>
+        <button class="btn btn-outline-success col-6" routerLink="/productList">Shop Now</button></div>
+        <img src="./../../assets/1.jpg" class="d-block w-100 nxt1" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="nxt offset-3">
+            <p style="color:teal; font-weight:700; font-size:24px;">Welcome To Fashion</p>
+        <h1 style="font-weight:900"> Women Fashion</h1>
+        <button class="btn btn-outline-success col-6" routerLink="/productList">Shop Now</button></div>
+        <img src="../../assets/2.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<div class="col-12 d-flex justify-content-around my-5">
+    <div>
+        <img [src]="banner6">
+    </div>
+    <div>
+        <img [src]="banner7">
+    </div>
+
+</div>
+
+
+    <div class="CardShow pb-3" style="background-color:rgba(143, 188, 143, 0.278)">
+    
+        <div class="card cardform" style="width: 260px; height:409px" *ngFor="let x of Data">
+          <div class="imgcard">
+            <div class="text-center text-bold bold mb-1"
+              [ngStyle]="{'color':'white','z-index':'1','background-color':'#84BE52', 'width':'50px','height':'17px','border-radius':'2px'}">
+              {{x.discount}}% OFF</div>
+            <!-- <div class="imgflex d-flex justify-content-center"> -->
+              <p-image class="text-center ms-5"  [src]="x.image" width='120px' height="120px" alt="Image"  [preview]="true" >
+                <ng-template pTemplate="indicator">
+                  <i class="pi pi-eye"></i>
+              </ng-template>
+              </p-image>
+              
+    
+              
+              <!-- <img [src]="x.image" class="" width="120px" height="120px" alt="...">
+            </div> -->
+    
+          </div>
+          
+          <button class="wishicon d-flex colormanage" (click)="addwish(x)" appHost >
+           <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+              </svg>
+          </button>
+    
+    
+          <div class="card-body">
+            <div style="height:40px">
+              <h6 class="card-title"><b>{{x.Product_Name}}</b></h6>
+            </div>
+            
+            <div class="badge2 d-flex">
+              <p-chip class="chip" label={{x.Category.c1}}></p-chip>
+              <p-chip class="chip" label={{x.Category.c2}}></p-chip>
+            </div>
+            <div>
+    
+              <span style="color:rgb(134, 134, 134); font-size: 10.7px">{{x.Manufacturer}}</span>
+            </div>
+            <div>
+              <span><b>{{x.Price | currency: 'INR' }}</b></span>
+            </div>
+            <div style="color:grey">
+              <span>MRP <del>Rs{{x.MRP | currency: 'INR' }}</del></span>
+            </div>
+         
+            
+            <a role= "button" class="btn col-12 mt-4" style="height:40px; padding:0px" pRipple (click)="addProduct(x)">
+              Add to Cart</a>
+          
+  
+      
+        
+        </div>
+     
+    
+    
+    </div>
+
+
+
+</div>
+
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./../../assets/1710152851_Ustraa.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" *ngFor="let x of banner">
+        <img [src]="x" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+  </div>

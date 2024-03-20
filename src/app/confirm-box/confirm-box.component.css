@@ -1,0 +1,22 @@
+:host::ng-deep{
+    .p-toast-top-right {
+        top: 180px !important;
+        width:450px;
+    }
+    .p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+
+        font-weight: 600;
+    }
+    .p-dialog .p-dialog-header .p-dialog-title{
+        text-align: center;
+        color:#24AEB1;
+        
+    }
+    .p-dialog{
+        width:500px;
+    }
+    .p-button {
+        background:#24AEB1;
+        border: 1px solid #24AEB1;
+    }
+}

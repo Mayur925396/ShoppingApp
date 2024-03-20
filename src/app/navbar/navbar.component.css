@@ -1,0 +1,27 @@
+  .front{
+    color:white;
+    font-family:Poppins,sans-serif;
+    font-size:12px;
+ }
+ .treat{
+    background-color:white;
+    font-weight: 600;
+ }
+ .announcement{
+    color:white;
+    background-color:darkseagreen;
+    letter-spacing: 1.5px;
+ }
+ .serchbox{
+    width:600px;
+    padding:10px;
+
+ }
+ .serchbox:focus{
+    outline: darkseagreen solid 2px;
+    border:none;
+ }
+ .nav-link{
+    cursor: pointer;
+ }
+

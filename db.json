@@ -1,0 +1,378 @@
+{
+  "users": [
+    {
+    
+      "fname": "Mayur",
+      "lname": "Ghadage",
+      "email": "mayurghadage777@gmail.com",
+      "mob": "7768925396",
+      "pass": "Pass@123",
+      "cpass": "Pass@123"
+    },
+    {
+   
+      "fname": "Nikita",
+      "lname": "Funde",
+      "email": "nikita@gmail.com",
+      "mob": "9876543210",
+      "pass": "Nikita@123",
+      "cpass": "Nikita@123"
+    }
+  ],
+  "fragrances": [
+    {
+      "id": 1,
+      "discount": 30,
+      "image": "assets/Beauty/img1.jpg",
+      "Rating": "",
+      "Product_Name": "Revlon Charlie Perfumed Body Spray - Blue 150 Ml",
+      "Manufacturer": "Mkt: Modi - Mundi Pharma Pvt. Ltd.",
+      "Price": "140.00",
+      "MRP": "200.00",
+      "Brands": "Revlon",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 2,
+      "discount": 61,
+      "image": "assets/Beauty/ajmal_sacred_love_pour_femme_parfum_deo_200_ml_192553_0_2.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Sacred Love Pour Femme Parfum Deo 200 Ml",
+      "Manufacturer": "Mkt: Ajmal & Sons",
+      "Price": "155.61",
+      "MRP": "399.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 3,
+      "discount": 25,
+      "image": "assets/Beauty/ajmal_aristocrat_75_ml_190959_0_1.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Aristocrat 75 Ml",
+      "Manufacturer": "Mkt: Ajmal & Sons",
+      "Price": "3000.00",
+      "MRP": "4000.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 4,
+      "discount": 30,
+      "image": "assets/Beauty/revlon_charlie_perfumed_body_spray_gold_150_ml_0_1.jpg",
+      "Rating": "",
+      "Product_Name": "Revlon Charlie Perfumed Body Spray - Gold 150 Ml",
+      "Manufacturer": "Mkt: Modi - Mundi Pharma Pvt. Ltd.",
+      "Price": "140.00",
+      "MRP": "200.00",
+      "Brands": "Revlon",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 5,
+      "discount": 25,
+      "image": "assets/Beauty/ajmal_evoke_gold_edition_him_edp_90_ml_190628_0_2.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Evoke Gold Edition Him Edp 90 Ml",
+      "Manufacturer": "Mkt: Ajmal & Sons",
+      "Price": "3375.00",
+      "MRP": "4500.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 6,
+      "discount": 25,
+      "image": "assets/Beauty/ajmal_aristocrat_edp_femme_75_ml_190603_0_1.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Aristocrat Edp Femme 75 Ml",
+      "Manufacturer": "Mkt: Ajmal & Sons",
+      "Price": "3000.00",
+      "MRP": "4000.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 7,
+      "discount": 25,
+      "image": "assets/Beauty/ajmal_evoke_gold_edition_her_edp_75_ml_190620_0_2.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Evoke Gold Edition Her Edp 75 Ml",
+      "Manufacturer": "Mkt: Ajmal & Sons",
+      "Price": "3375.00",
+      "MRP": "4500.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 8,
+      "discount": 48,
+      "image": "assets/Beauty/and_lovm_myste_edp_pack_of_2_200_ml_0_0.jpg",
+      "Rating": "",
+      "Product_Name": "AND LovM & MystE EDP Pack of 2 200 ml",
+      "Manufacturer": "Mkt: M/S Ajmal & Sons.",
+      "Price": "1872.00",
+      "MRP": "3600.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 9,
+      "discount": 10,
+      "image": "assets/Beauty/ajmal_amber_santal_edp_100_ml_0_1.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Amber Santal Edp 100 Ml",
+      "Manufacturer": "Mkt: M/S Ajmal & Sons.",
+      "Price": "12600.00",
+      "MRP": "14000.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 10,
+      "discount": 20,
+      "image": "assets/Beauty/ajmal_musk_rose_cp_12_ml_191996_0_3.jpg",
+      "Rating": "5",
+      "Product_Name": "Ajmal Musk Rose Cp 12 Ml",
+      "Manufacturer": "Mkt: M/S Ajmal & Sons.",
+      "Price": "600.00",
+      "MRP": "750.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 11,
+      "discount": 30,
+      "image": "assets/Beauty/one8_aqua_deodorant_200_ml_0_0.jpg",
+      "Rating": "",
+      "Product_Name": "One8 Aqua Deodorant 200 ml",
+      "Manufacturer": "Mkt: Baccarose Perfumes & Beauty Production",
+      "Price": "174.30",
+      "MRP": "249.00",
+      "Brands": "One8",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 12,
+      "discount": 52,
+      "image": "assets/Beauty/ajmal_captivate_deo_200_ml_192107_0_1.jpg",
+      "Rating": "5",
+      "Product_Name": "Ajmal Captivate Deo 200 Ml",
+      "Manufacturer": "Mkt: M/S Ajmal & Sons.",
+      "Price": "143.52",
+      "MRP": "299.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 13,
+      "discount": 52,
+      "image": "assets/Beauty/ajmal_persuade_deo_200_ml_192099_0_1.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Persuade Deo 200 Ml",
+      "Manufacturer": "Mkt: M/S Ajmal & Sons.",
+      "Price": "143.52",
+      "MRP": "299.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 14,
+      "discount": 12,
+      "image": "assets/Beauty/revlon_charlie_edt_blue_100_ml_0_2.jpg",
+      "Rating": "",
+      "Product_Name": "Revlon Charlie Edt-Blue 100 Ml",
+      "Manufacturer": "Mkt: Modi - Mundi Pharma Pvt. Ltd.",
+      "Price": "739.20",
+      "MRP": "840.00",
+      "Brands": "Revlon",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 15,
+      "discount": 10,
+      "image": "assets/Beauty/archies_parfum_01_black_parfum_original_50_ml_0_0.jpg",
+      "Rating": "",
+      "Product_Name": "Archies Parfum 01 BLACK PARFUM ORIGINAL 50 ml",
+      "Manufacturer": "Mkt: Archies Limited",
+      "Price": "449.10",
+      "MRP": "499.00",
+      "Brands": "Archies",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 16,
+      "discount": 30,
+      "image": "assets/Beauty/ajmal_asher_cp_12_ml_191700_0_2.jpg",
+      "Rating": "",
+      "Product_Name": "Ajmal Asher Cp 12 Ml",
+      "Manufacturer": "Mkt: M/S Ajmal & Sons.",
+      "Price": "875.00",
+      "MRP": "1250.00",
+      "Brands": "Ajmal",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 17,
+      "discount": 23,
+      "image": "assets/Beauty/revlon_charlie_edt_red_100_ml_0_1.jpg",
+      "Rating": "",
+      "Product_Name": "Revlon Charlie Red Eau Fraiche Natural Spray 100ml",
+      "Manufacturer": "Mkt: Modi - Mundi Pharma Pvt. Ltd.",
+      "Price": "646.00",
+      "MRP": "840.00",
+      "Brands": "Revlon",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 18,
+      "discount": 10,
+      "image": "assets/Beauty/archies_parfum_ghost_parfum_black_original_50_ml_0_0.jpg",
+      "Rating": "",
+      "Product_Name": "Archies Parfum 01 BLACK PARFUM ORIGINAL 50 ml",
+      "Manufacturer": "Mkt: Archies Limited",
+      "Price": "449.10",
+      "MRP": "499.00",
+      "Brands": "Archies",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 19,
+      "discount": 10,
+      "image": "assets/Beauty/archies_parfum_dream_boyz_dream_gals_deo_combo_500_ml_0_0.jpg",
+      "Rating": "",
+      "Product_Name": "DREAM BOYZ & DREAM GALS DEO COMBO",
+      "Manufacturer": "Mkt: Archies Limited",
+      "Price": "450.00",
+      "MRP": "500.00",
+      "Brands": "Archies",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 20,
+      "discount": 10,
+      "image": "assets/Beauty/archies_parfum_dream_gals_deo_combo_500_ml_0_0.jpg",
+      "Rating": "",
+      "Product_Name": "DREAM GALS DEO COMBO",
+      "Manufacturer": "Mkt: Archies Limited",
+      "Price": "450.00",
+      "MRP": "500.00",
+      "Brands": "Archies",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Unisex"
+      },
+      "flags": "true"
+    }
+  ],
+  "grooms": [
+    {
+      "id": 21,
+      "discount": 50,
+      "image": "assets/Beauty/nivea_men_deep_impact_face_beard_wash_intense_clean_100_gm_0.jpg",
+      "Rating": "5",
+      "Product_Name": "Nivea Facewash",
+      "Manufacturer": "Mkt: Nivea",
+      "Price": "250.00",
+      "MRP": "500.00",
+      "Brands": "Nivea",
+      "Category": {
+        "c1": "Skincare",
+        "c2": "Men"
+      },
+      "flags": "true"
+    },
+    {
+      "id": 22,
+      "discount": 10,
+      "image": "assets/Beauty/nivea_soft_light_moisturiser_200_ml_32307_0_3.jpg",
+      "Rating": "",
+      "Product_Name": "Nivea Body Lotion",
+      "Manufacturer": "Mkt: Nivea",
+      "Price": "250.00",
+      "MRP": "500.00",
+      "Brands": "Nivea",
+      "Category": {
+        "c1": "Fragrances",
+        "c2": "Women"
+      },
+      "flags": "true"
+    }
+  ]
+}
