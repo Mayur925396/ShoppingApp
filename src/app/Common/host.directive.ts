@@ -13,6 +13,7 @@ export class HostDirective {
     if(this.flag){
       this.cs.nativeElement.style.color ='red'
       this.flag=!this.flag;
+      
  
     }else{
       this.cs.nativeElement.style.color = 'rgb(226, 226, 226)'

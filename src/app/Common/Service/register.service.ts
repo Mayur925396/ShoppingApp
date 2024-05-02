@@ -13,7 +13,15 @@ export class RegisterService {
   };
 
   CatchApi(user:any){
-    console.log(user.username)
-    return this.http.get(`http://localhost:3000/users?mob=${user.username}&pass=${user.pass}`)
+    let apiUrl = `http://localhost:3000/users?pass=${user.pass}`;
+    let temp=user.username.includes('@')
+    if (temp) {
+      apiUrl += `&email=${user.username}`;
+    } else{
+      apiUrl += `&mob=${user.username}`;
+    }
+console.log(temp);
+console.log(apiUrl)
+    return this.http.get(apiUrl);
   }
 }

@@ -1,4 +1,4 @@
-<div class="front text-center mt-5 " *ngIf="domData , else elseBlock">
+<div class="front text-center mt-5 " *ngIf="!domData , else elseBlock">
     <img [src]="wishlist">
     <div class="mt-5">
         <p><b>Wishlist is empty!</b></p>
@@ -14,38 +14,51 @@
 </div>
 
 <ng-template #elseBlock>
+<div class="col-8 offset-2">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./../../assets/1710152519_Jaguar.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" *ngFor="let x of banner">
+            <img [src]="x" class="d-block w-100" alt="...">
+          </div>
     
-
-    <!-- <div class="col-12 wishBanner d-flex" *ngFor="let x of domData">
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-8 offset-2 wishBanner d-flex" *ngFor="let x of domData">
+       
         <div>
             <img [src]="x.image" width="150px" height="150px">
         </div>
         <div class="wishB2">
             <div class="d-flex justify-content-between">
-                <p>{{x.Product_Name}}</p>
+                <h6><strong>{{x.Product_Name}}</strong></h6>
                 <button class="removeitems" (click)="removeProduct(x)"><i class="bi bi-dash-circle"></i></button>
             </div>
             <div>
             <div class="d-flex">
-                <div class="catel">
+                <div class="catel text-center rounded">
                     <p>{{x.Category.c1}}</p>
                 </div>
-                <div class="catel ms-2">
+                <div class="catel ms-2 text-center rounded">
                     <p>{{x.Category.c2}}</p>
                 </div>
             </div>
                 <div class="catel2">
                     <span><i class="bi bi-currency-rupee"></i>{{x.Price}}</span>
-                    <span style="color:rgb(186, 179, 179)"><del>MRP<i
+                    <span style="color:rgb(249, 145, 145)" class="ms-5"><del>MRP<i
                                 class="bi bi-currency-rupee"></i>{{x.MRP}}</del></span>
-                                <span style="color:red">Save {{x.discount}}%</span>
+                                <span style="color:teal" class="ms-5 text-bold"><strong>Save {{x.MRP-x.Price | currency:'INR'}}</strong></span>
                 </div>
             </div>
             <div>
                 <div class="d-flex justify-content-between">
                  {{x.Manufacturer}}
                  <div>
-                    <button appCust (click)="AddtoCart(x)">Add to Cart</button>
+                    <button class="btneffect rounded" (click)="AddtoCart(x)">Add to Cart</button>
                 </div>
                 </div>
                 
@@ -53,6 +66,6 @@
         </div>
         
 
-    </div> -->
+    </div>
 
 </ng-template> 

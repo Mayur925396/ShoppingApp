@@ -140,4 +140,12 @@ transition:0.5s ease-in;
     line-height:40px;
     font-weight: 600;
   }
- 
+  .wishicon svg.bi-heart-fill {
+    fill: red; /* Change the fill color for the filled heart */
+}
+
+/* Style for the empty heart icon */
+.wishicon svg.bi-heart {
+    fill: currentColor;
+
+}

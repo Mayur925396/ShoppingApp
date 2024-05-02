@@ -6,23 +6,16 @@
           <div class="text-center text-bold bold mb-1"
             [ngStyle]="{'color':'white','z-index':'1','background-color':'#84BE52', 'width':'50px','height':'17px','border-radius':'2px'}">
             {{x.discount}}% OFF</div>
-          <!-- <div class="imgflex d-flex justify-content-center"> -->
             <p-image class="text-center ms-5"  [src]="x.image" width='120px' height="120px" alt="Image"  [preview]="true" >
               <ng-template pTemplate="indicator">
                 <i class="pi pi-eye"></i>
             </ng-template>
-            </p-image>
-            
-  
-            
-            <!-- <img [src]="x.image" class="" width="120px" height="120px" alt="...">
-          </div> -->
-  
+            </p-image>  
         </div>
         
-        <button class="wishicon d-flex colormanage" (click)="addwish(x)" appHost >
+        <button class="wishicon d-flex colormanage" (click)="toggleWishlist(x)">
          <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-heart-fill" viewBox="0 0 16 16">
+        [ngClass]="{'bi-heart': x.flags,'bi-heart-fill': !x.flags }" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
             </svg>
         </button>

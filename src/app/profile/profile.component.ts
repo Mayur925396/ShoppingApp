@@ -18,7 +18,9 @@ export class ProfileComponent {
 
   onLogout(){
     this.sendBio()
-    this.auth.authset('false')
+    this.auth.authset(false);
+    localStorage.removeItem('m1');
+    localStorage.removeItem('m2');
     this.route.navigate(['/signup']);
   }
 

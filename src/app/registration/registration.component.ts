@@ -39,7 +39,7 @@ export class RegistrationComponent {
         error:(err:any)=>console.log(err)
       })
       this.customer.reset()
-
+      this.onchange();
     }
     
 

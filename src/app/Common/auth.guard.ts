@@ -6,30 +6,22 @@ import { AuthService } from './Service/auth.service';
 @Injectable({
   providedIn: 'root'
 })
-export class AuthGuard implements CanActivate {
-  public value:any=false;
+export class AuthGuard implements CanActivate{
+
   constructor(private db:AuthService){
-    this.Activation();
+  
   }
 
     
 
-  Activation(){
-    this.db.auth.subscribe({
-      next:(res:any)=>{
-        this.value=res;
-        
-       sessionStorage.setItem('guard',res);
-     
-
-      },
-      error:(err:any)=>console.log(err)
-    })
-  }
+  
   canActivate(
     route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): Observable<any | UrlTree> | Promise<any | UrlTree> | any | UrlTree {
-    return this.value;
+    state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+    if(localStorage.getItem('m1')){
+      return true;
+    }
+      return this.db.flag;
   }
   
 }

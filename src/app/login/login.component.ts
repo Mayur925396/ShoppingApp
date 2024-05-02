@@ -25,8 +25,17 @@ export class LoginComponent {
 
   }
   
+ngOnInit(){
+  this.reload();
+}
+reload(){
+  if(localStorage.getItem('m1')){
+    this.auth.authset('true');
+    this.route.navigate(['/profile']);
 
 
+  }
+}
   onLogin(){
     this.FrmSub = true;
     console.log(this.user.value)
@@ -42,8 +51,9 @@ export class LoginComponent {
          console.log(res);
          this.userbio=res[0].fname+ " " +res[0].lname;
          console.log(this.userbio);
-         this.auth.authset('true');
-
+         this.auth.authset(true);
+         localStorage.setItem('m1','true');
+         localStorage.setItem('m2',this.userbio)
          this.sendbio();
          
          this.route.navigate(['/profile']);

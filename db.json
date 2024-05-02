@@ -1,27 +1,72 @@
 {
   "users": [
     {
-    
       "fname": "Mayur",
       "lname": "Ghadage",
       "email": "mayurghadage777@gmail.com",
       "mob": "7768925396",
-      "pass": "Pass@123",
-      "cpass": "Pass@123"
+      "pass": "Mayur@123",
+      "cpass": "Mayur@123",
+      "id": "f483"
     },
     {
-   
       "fname": "Nikita",
       "lname": "Funde",
       "email": "nikita@gmail.com",
       "mob": "9876543210",
       "pass": "Nikita@123",
-      "cpass": "Nikita@123"
+      "cpass": "Nikita@123",
+      "id": "ba6d"
+    },
+    {
+      "id": "cfcb",
+      "fname": "Ashwini",
+      "lname": "Pisal",
+      "email": "ashwini@gmail.com",
+      "mob": "9922917302",
+      "pass": "Ashwini@123",
+      "cpass": "Ashwini@123"
+    },
+    {
+      "id": "221a",
+      "fname": "Balaso",
+      "lname": "Ghadage",
+      "email": "balaso@gmail.com",
+      "mob": "9921225232",
+      "pass": "Balaso@123",
+      "cpass": "Balaso@123"
+    },
+    {
+      "id": "6288",
+      "fname": "Amar",
+      "lname": "Kumbhar",
+      "email": "amar@gmail.com",
+      "mob": "9876543212",
+      "pass": "Amar@123",
+      "cpass": "Amar@123"
+    },
+    {
+      "id": "17fa",
+      "fname": "Vinayak",
+      "lname": "Kolekar",
+      "email": "vinayak@gmail.com",
+      "mob": "9876543213",
+      "pass": "Vinayak@123",
+      "cpass": "Vinayak@123"
+    },
+    {
+      "id": "305f",
+      "fname": "Kishor",
+      "lname": "Nanaware",
+      "email": "kishor@gmail.com",
+      "mob": "9876543218",
+      "pass": "Kishor@123",
+      "cpass": "Kishor@123"
     }
   ],
   "fragrances": [
     {
-      "id": 1,
+      "id": "1",
       "discount": 30,
       "image": "assets/Beauty/img1.jpg",
       "Rating": "",
@@ -34,10 +79,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 2,
+      "id": "2",
       "discount": 61,
       "image": "assets/Beauty/ajmal_sacred_love_pour_femme_parfum_deo_200_ml_192553_0_2.jpg",
       "Rating": "",
@@ -50,10 +95,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 3,
+      "id": "3",
       "discount": 25,
       "image": "assets/Beauty/ajmal_aristocrat_75_ml_190959_0_1.jpg",
       "Rating": "",
@@ -66,10 +111,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 4,
+      "id": "4",
       "discount": 30,
       "image": "assets/Beauty/revlon_charlie_perfumed_body_spray_gold_150_ml_0_1.jpg",
       "Rating": "",
@@ -82,10 +127,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 5,
+      "id": "5",
       "discount": 25,
       "image": "assets/Beauty/ajmal_evoke_gold_edition_him_edp_90_ml_190628_0_2.jpg",
       "Rating": "",
@@ -98,10 +143,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 6,
+      "id": "6",
       "discount": 25,
       "image": "assets/Beauty/ajmal_aristocrat_edp_femme_75_ml_190603_0_1.jpg",
       "Rating": "",
@@ -114,10 +159,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 7,
+      "id": "7",
       "discount": 25,
       "image": "assets/Beauty/ajmal_evoke_gold_edition_her_edp_75_ml_190620_0_2.jpg",
       "Rating": "",
@@ -130,10 +175,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 8,
+      "id": "8",
       "discount": 48,
       "image": "assets/Beauty/and_lovm_myste_edp_pack_of_2_200_ml_0_0.jpg",
       "Rating": "",
@@ -146,10 +191,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 9,
+      "id": "9",
       "discount": 10,
       "image": "assets/Beauty/ajmal_amber_santal_edp_100_ml_0_1.jpg",
       "Rating": "",
@@ -162,10 +207,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 10,
+      "id": "10",
       "discount": 20,
       "image": "assets/Beauty/ajmal_musk_rose_cp_12_ml_191996_0_3.jpg",
       "Rating": "5",
@@ -178,10 +223,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 11,
+      "id": "11",
       "discount": 30,
       "image": "assets/Beauty/one8_aqua_deodorant_200_ml_0_0.jpg",
       "Rating": "",
@@ -194,10 +239,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 12,
+      "id": "12",
       "discount": 52,
       "image": "assets/Beauty/ajmal_captivate_deo_200_ml_192107_0_1.jpg",
       "Rating": "5",
@@ -210,10 +255,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 13,
+      "id": "13",
       "discount": 52,
       "image": "assets/Beauty/ajmal_persuade_deo_200_ml_192099_0_1.jpg",
       "Rating": "",
@@ -226,10 +271,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 14,
+      "id": "14",
       "discount": 12,
       "image": "assets/Beauty/revlon_charlie_edt_blue_100_ml_0_2.jpg",
       "Rating": "",
@@ -242,10 +287,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 15,
+      "id": "15",
       "discount": 10,
       "image": "assets/Beauty/archies_parfum_01_black_parfum_original_50_ml_0_0.jpg",
       "Rating": "",
@@ -258,10 +303,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 16,
+      "id": "16",
       "discount": 30,
       "image": "assets/Beauty/ajmal_asher_cp_12_ml_191700_0_2.jpg",
       "Rating": "",
@@ -274,10 +319,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 17,
+      "id": "17",
       "discount": 23,
       "image": "assets/Beauty/revlon_charlie_edt_red_100_ml_0_1.jpg",
       "Rating": "",
@@ -290,10 +335,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 18,
+      "id": "18",
       "discount": 10,
       "image": "assets/Beauty/archies_parfum_ghost_parfum_black_original_50_ml_0_0.jpg",
       "Rating": "",
@@ -306,10 +351,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 19,
+      "id": "19",
       "discount": 10,
       "image": "assets/Beauty/archies_parfum_dream_boyz_dream_gals_deo_combo_500_ml_0_0.jpg",
       "Rating": "",
@@ -322,10 +367,10 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 20,
+      "id": "20",
       "discount": 10,
       "image": "assets/Beauty/archies_parfum_dream_gals_deo_combo_500_ml_0_0.jpg",
       "Rating": "",
@@ -338,12 +383,12 @@
         "c1": "Fragrances",
         "c2": "Unisex"
       },
-      "flags": "true"
+      "flags": "false"
     }
   ],
   "grooms": [
     {
-      "id": 21,
+      "id": "21",
       "discount": 50,
       "image": "assets/Beauty/nivea_men_deep_impact_face_beard_wash_intense_clean_100_gm_0.jpg",
       "Rating": "5",
@@ -356,10 +401,10 @@
         "c1": "Skincare",
         "c2": "Men"
       },
-      "flags": "true"
+      "flags": "false"
     },
     {
-      "id": 22,
+      "id": "22",
       "discount": 10,
       "image": "assets/Beauty/nivea_soft_light_moisturiser_200_ml_32307_0_3.jpg",
       "Rating": "",
@@ -372,7 +417,7 @@
         "c1": "Fragrances",
         "c2": "Women"
       },
-      "flags": "true"
+      "flags": "false"
     }
   ]
 }
